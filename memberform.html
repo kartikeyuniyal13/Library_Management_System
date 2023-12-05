@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Member</title>
+</head>
+<body>
+
+<h2>Add Member</h2>
+
+<form action="members.php" method="post">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required><br>
+<!-- 
+    <label for="memId">Member ID:</label>
+    <input type="number" id="memId" name="memId" required><br> -->
+
+    <label for="memDate">Membership Date:</label>
+    <input type="date" id="memDate" name="memDate" required><br>
+
+    <label for="expiryDate">Expiry Date:</label>
+    <input type="date" id="expiryDate" name="expiryDate" required><br>
+
+    <label for="address">Address:</label>
+    <textarea id="address" name="address" rows="4" required></textarea><br>
+
+    <input type="submit" value="Add Member">
+</form>
+
+</body>
+</html>

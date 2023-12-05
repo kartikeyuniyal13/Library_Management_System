@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library Management System</title>
+    <!-- Add your CSS stylesheets or include a separate CSS file here -->
+    <style>
+        /* Add your styles here */
+    </style>
+</head>
+<body>
+    <h1>Library Management System</h1>
+
+    <!-- Navigation Buttons -->
+    <div>
+        <a href="./bookform.html">Add Book</a><br>
+        <a href="./memberform.html">Add Member</a><br>
+        <a href="./search.html">Search</a><br>
+        <a href="./catalogue.php">Catalogue</a><br>
+     
+    </div>
+
+    <!-- Catalog Display Area -->
+    <div id="catalog">
+        <?php include 'catalogue.php'; ?>
+    </div>
+
+    <!-- Add your JavaScript logic here for handling search functionality, etc. -->
+    <script>
+        function searchBooks() {
+            // Implement search functionality here
+        }
+    </script>
+</body>
+</html>
